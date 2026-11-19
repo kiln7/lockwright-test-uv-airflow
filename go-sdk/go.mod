@@ -2,6 +2,8 @@ module github.com/apache/airflow/go-sdk
 
 go 1.25.0
 
+toolchain go1.26.11
+
 tool github.com/apache/airflow/go-sdk/cmd/airflow-go-pack
 
 require (
