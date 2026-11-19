@@ -2,6 +2,8 @@ module github.com/apache/airflow/kubernetes-tests/lang_sdk/go_example
 
 go 1.25.0
 
+toolchain go1.26.11
+
 require github.com/apache/airflow/go-sdk v0.0.0
 
 require (
